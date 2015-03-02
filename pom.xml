@@ -127,9 +127,16 @@
 		</plugins>
 	</build>
 	<distributionManagement>
-		<site>
-			<id>chrisprice.github.com/phonegap-build</id>
-			<url>https://chrisprice.github.com/phonegap-build/</url>
-		</site>
+		<repository>
+			<id>byclosure_releases</id>
+			<name>Byclosure Releases</name>
+			<url>http://nexus.services.byclosure.com/content/repositories/releases</url>
+		</repository>
+		<!-- repository used if the project version ends with "SNAPSHOT" -->
+		<snapshotRepository>
+			<id>byclosure_snapshots</id>
+			<name>Byclosure Snapshots</name>
+			<url>http://nexus.services.byclosure.com/content/repositories/snapshots</url>
+		</snapshotRepository>
 	</distributionManagement>
 </project>
