@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>com.github.chrisprice</groupId>
 			<artifactId>phonegap-build-api</artifactId>
-			<version>0.0.9-SNAPSHOT</version>
+			<version>0.0.9-BC-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.maven</groupId>
